@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnTao1Tu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tạo 1 từ tiếng anh" />
+
+    <TextView
+        android:id="@+id/txtTao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnVoice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voice với Google c1" />
+
+    <TextView
+        android:id="@+id/txtSpeechToText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="kết quả ở đây" />
+
+    <Button
+        android:id="@+id/btnCach2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="voice với google c2" />
+
+</LinearLayout>
